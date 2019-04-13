@@ -15,8 +15,7 @@ header {
  font-weight: bold;
  text-shadow: 2px 2px 2px red;
  border: 1px solid black;
- text-align: center;
-   
+ text-align: center;  
 }
 
 nav ul {
@@ -48,7 +47,7 @@ p {
 section {
  background-color: #252525;
  border: 1px solid black;
- margin 15px 15px 15px 15px;
+ margin: 15px 15px 15px 15px;
  text-align: center;
  padding: 10px 10px 10px 10px;
 }
@@ -57,10 +56,52 @@ h1 {
  background-color: #252525;
  padding: 4px 4px 4px 4px;
  color: orange;
+ -webkit-text-fill-color: orange;
+ -webkit-text-stroke-width: .7px;
+ -webkit-text-stroke-color: red; 
+ }
+
+.typewriter h2 {
+  overflow: hidden;
+ -webkit-text-fill-color: orange;
+ -webkit-text-stroke-width: .7px;
+ -webkit-text-stroke-color: red;  
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 footer {
  background-color: #020202;
  font-size: 12px;
  text-align: center;
+}
+
+.stitched p {
+   padding: 2px;
+   margin: 1px;
+   background-color: #252525;
+   color: orange;
+   font-size: 12px;
+   font-style: italic;
+   line-height: 1.5em;
+   border: 2px dashed red;
+   border-radius: 3px;
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
 }
