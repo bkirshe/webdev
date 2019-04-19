@@ -61,6 +61,36 @@ h1 {
  -webkit-text-stroke-color: red; 
  }
 
+h3 {
+ background-color: #252525;
+ padding: 4px 4px 4px 4px;
+ color: orange;
+ font-size: 27px;
+ -webkit-text-fill-color: orange;
+ -webkit-text-stroke-width: .7px;
+ -webkit-text-stroke-color: red; 
+ }
+
+h4 {
+ background-color: #252525;
+ padding: 4px 4px 4px 4px;
+ color: orange;
+ -webkit-text-fill-color: orange;
+ -webkit-text-stroke-width: .7px;
+ -webkit-text-stroke-color: red; 
+ font-size: 27px;
+ }
+
+h5 {
+ background-color: #252525;
+ padding: 4px 4px 4px 4px;
+ color: orange;
+ -webkit-text-fill-color: orange;
+ -webkit-text-stroke-width: .7px;
+ -webkit-text-stroke-color: red; 
+ font-size: 27px;
+ }
+
 .typewriter h2 {
   overflow: hidden;
  -webkit-text-fill-color: orange;
