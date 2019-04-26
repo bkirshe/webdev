@@ -33,6 +33,9 @@ nav li {
  padding: 10px 20px 10px 20px; 
  font-weight: bold;
 }
+.nav1 {
+ text-align: center;
+}
 h1 { 
  background-color: #252525;
  padding: 5px 5px 5px 5px;
